@@ -26,7 +26,7 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_GAMEPAD,
                    false, false, false);  // No accelerator, brake, or steering
 
 // nome bottoni
-typedef enum butt {A, B, X, Y, START, UP, RIGHT, DOWN, LEFT, NUM_BUTT} enm_butt;
+typedef enum butt {A, B, X, Y, START, SELECT, RIGHT_SHOULDER, LEFT_SHOULDER, UP, RIGHT, DOWN, LEFT, NUM_BUTT} enm_butt;
 
 // numero pin dei bottoni
 int butt_index[] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 15, 16};
