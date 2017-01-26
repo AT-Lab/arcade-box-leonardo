@@ -14,6 +14,10 @@
 //
 // by Matthew Heironimus 2016-11-24 (Library) &
 // @pazpi, @martinotu, @aletorri team ATLab
+// link utili: https://github.com/retropie/retropie-setup/wiki/retroarch-configuration  joypad configurazione usata Super Nintendo
+//             https://github.com/MHeironimus/ArduinoJoystickLibrary pagina ufficiale della librerie usata
+//             https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/ piedinatura del chip Arduino, purtoppo la cineseria
+//                                                                                  è un misto fra il Leonardo e il Pro Micro
 //--------------------------------------------------------------------
 
 #include <Joystick.h>
